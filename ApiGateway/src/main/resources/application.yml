@@ -7,7 +7,7 @@ spring:
 
   cloud:
     gateway:
-      routes:  # Changed from __routes__ to routes
+      routes:
         - id: USER-SERVICE
           uri: lb://USER-SERVICE
           predicates:
@@ -22,6 +22,14 @@ spring:
           uri: lb://RATING-SERVICE
           predicates:
             - Path=/ratings/**
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://integrator-5645346.okta.com/oauth2/default
+          
+          audience: api://default
 
 eureka:
   client:

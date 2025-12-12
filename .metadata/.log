@@ -80,3 +80,1541 @@ java.lang.NullPointerException
 	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
 	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-09 12:43:43.125
+!MESSAGE Classpath changed for project: UserServices
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-12-09 12:43:53.622
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-12-09 12:48:14.478
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-12-09 12:55:35.330
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-12-09 13:01:56.708
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-09 13:36:34.121
+!MESSAGE Classpath changed for project: UserServices
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-09 13:36:34.456
+!MESSAGE Classpath changed for project: UserServices
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-09 13:36:35.172
+!MESSAGE Classpath changed for project: UserServices
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-09 13:36:42.353
+!MESSAGE Classpath changed for project: UserServices
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-12-09 15:14:35.346
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-12-09 15:20:32.959
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-12-09 15:20:52.967
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-12-09 15:21:37.468
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-12-09 15:22:21.516
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-12-09 15:42:29.622
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-12-09 15:44:53.989
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-12-09 15:49:14.508
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-12-09 15:49:53.380
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-12-09 15:50:08.854
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-12-09 15:50:37.478
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-12-09 15:56:05.600
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-12-09 16:15:48.527
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-12-09 16:31:07.774
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-12-09 16:32:54.889
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-12-09 16:34:19.584
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-12-09 16:44:40.023
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-12-09 16:45:11.936
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-12-09 16:45:54.666
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-12-09 17:19:40.610
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-12-09 17:32:52.534
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-12-09 17:34:57.289
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-12-09 17:47:05.364
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-12-09 17:48:41.904
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-10 11:51:48.628
+!MESSAGE Classpath changed for project: ApiGateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-10 11:51:48.636
+!MESSAGE Boot project REMOVED: ApiGateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-10 12:19:45.395
+!MESSAGE Classpath changed for project: ApiGateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-10 12:19:45.412
+!MESSAGE Boot project ADDED: ApiGateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-10 12:19:45.549
+!MESSAGE Classpath changed for project: ApiGateway
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-12-10 12:19:48.878
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-10 12:19:53.903
+!MESSAGE Classpath changed for project: ApiGateway
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-12-10 12:20:00.671
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-10 12:24:15.642
+!MESSAGE Classpath changed for project: ApiGateway
+
+!ENTRY org.eclipse.core.jobs 4 2 2025-12-10 17:11:40.949
+!MESSAGE IJobChangeListener timeout detected. Further calls to IJobChangeListener may occur in random order and join(family) can return too soon. IJobChangeListener should return within 3000 ms. IJobChangeListener methods should not block. Possible deadlock.
+!STACK 0
+java.util.concurrent.TimeoutException: IJobChangeListener timeout detected. Further calls to IJobChangeListener may occur in random order and join(family) can return too soon. IJobChangeListener should return within 3000 ms. IJobChangeListener methods should not block. Possible deadlock.
+	at org.eclipse.core.internal.jobs.JobListeners.waitAndSendEvents(JobListeners.java:106)
+	at org.eclipse.core.internal.jobs.JobManager.startJob(JobManager.java:1778)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+!SUBENTRY 1 org.eclipse.core.jobs 4 2 2025-12-10 17:11:41.023
+!MESSAGE Thread that is running the IJobChangeListener: Output Stream Monitor for PID 22336 UserServices - UserServicesApplication
+	at java.base@17.0.8.1/java.util.HashMap.resize(HashMap.java:702)
+	at java.base@17.0.8.1/java.util.HashMap.computeIfAbsent(HashMap.java:1198)
+	at org.eclipse.ui.internal.progress.ProgressManager.rememberListenersForJob(ProgressManager.java:726)
+	at org.eclipse.ui.internal.progress.ProgressManager.refreshJobInfo(ProgressManager.java:644)
+	at org.eclipse.ui.internal.progress.ProgressManager$1.aboutToRun(ProgressManager.java:425)
+	at org.eclipse.core.internal.jobs.JobListeners$$Lambda$117/0x000000010026a000.notify(Unknown Source)
+	at org.eclipse.core.internal.jobs.JobListeners.sendEvent(JobListeners.java:153)
+	at org.eclipse.core.internal.jobs.JobListeners.sendEventsAsync(JobListeners.java:140)
+	at org.eclipse.core.internal.jobs.JobListeners.waitAndSendEvents(JobListeners.java:80)
+	at org.eclipse.core.internal.jobs.JobManager.withWriteLock(JobManager.java:550)
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1399)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:396)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:654)
+	at org.eclipse.ui.internal.console.IOConsolePartitioner.streamAppended(IOConsolePartitioner.java:698)
+	at org.eclipse.ui.console.IOConsoleOutputStream.notifyParitioner(IOConsoleOutputStream.java:281)
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:276)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:260)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$StreamListener.streamAppended(ProcessConsole.java:809)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:171)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.fireStreamAppended(OutputStreamMonitor.java:168)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:256)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$$Lambda$1779/0x0000000100ee6a48.run(Unknown Source)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+
+All thread infos: 
+"main" prio=6 Id=1 RUNNABLE
+	at org.eclipse.swt.internal.win32.OS.WaitMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.sleep(Display.java:4770)
+	at org.eclipse.ui.application.WorkbenchAdvisor.eventLoopIdle(WorkbenchAdvisor.java:339)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.eventLoopIdle(IDEWorkbenchAdvisor.java:993)
+	at org.eclipse.ui.internal.Workbench$1.eventLoopIdle(Workbench.java:480)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	...
+
+"Reference Handler" daemon prio=10 Id=2 RUNNABLE
+	at java.base@17.0.8.1/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@17.0.8.1/java.lang.ref.Reference.processPendingReferences(Reference.java:253)
+	at java.base@17.0.8.1/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+
+"Finalizer" daemon prio=8 Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@42aa4eee
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@42aa4eee
+	at java.base@17.0.8.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.8.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at java.base@17.0.8.1/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:172)
+
+"Signal Dispatcher" daemon prio=9 Id=4 RUNNABLE
+
+"Attach Listener" daemon prio=5 Id=5 RUNNABLE
+
+"Common-Cleaner" daemon prio=8 Id=13 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@2fc8085e
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@2fc8085e
+	at java.base@17.0.8.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.8.1/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+	at java.base@17.0.8.1/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+
+"Notification Thread" daemon prio=9 Id=14 RUNNABLE
+
+"Active Thread: Equinox Container: 97182a4e-bc8b-40f6-a5e1-2370145254d3" prio=5 Id=16 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@309f68a9
+	at java.base@17.0.8.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@309f68a9
+	at java.base@17.0.8.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+	at java.base@17.0.8.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@17.0.8.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	...
+
+"Framework Event Dispatcher: Equinox Container: 97182a4e-bc8b-40f6-a5e1-2370145254d3" daemon prio=5 Id=18 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@238256
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@238256
+	at java.base@17.0.8.1/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:400)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+"Start Level: Equinox Container: 97182a4e-bc8b-40f6-a5e1-2370145254d3" daemon prio=5 Id=19 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@42791733
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@42791733
+	at java.base@17.0.8.1/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:400)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+"SCR Component Actor" daemon prio=5 Id=20 WAITING on java.util.LinkedList@2d1c6dda
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.util.LinkedList@2d1c6dda
+	at java.base@17.0.8.1/java.lang.Object.wait(Object.java:338)
+	at org.apache.felix.scr.impl.ComponentActorThread.run(ComponentActorThread.java:83)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+
+"EMF Reference Cleaner" daemon prio=5 Id=22 WAITING on java.lang.ref.ReferenceQueue$Lock@668d82f0
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@668d82f0
+	at java.base@17.0.8.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.8.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at org.eclipse.emf.common.util.CommonUtil$1ReferenceClearingQueuePollingThread.run(CommonUtil.java:70)
+
+"Worker-JM" prio=5 Id=24 WAITING on java.util.ArrayList@7aa09d45
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@7aa09d45
+	at org.eclipse.core.internal.jobs.InternalWorker.run(InternalWorker.java:61)
+
+"Gogo shell" prio=5 Id=26 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@70eacdad
+	at java.base@17.0.8.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@70eacdad
+	at java.base@17.0.8.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.8.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+	at java.base@17.0.8.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+	at java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.8.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	...
+
+"Git Repository Closer" daemon prio=6 Id=31 WAITING on java.lang.ref.ReferenceQueue$Lock@3ed60cd7
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@3ed60cd7
+	at java.base@17.0.8.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.8.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at org.eclipse.egit.core.RepositoryCache$Closer.run(RepositoryCache.java:453)
+
+"Bundle File Closer" daemon prio=6 Id=32 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@34c693ff
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@34c693ff
+	at java.base@17.0.8.1/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:400)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+"Java indexing" daemon prio=4 Id=36 WAITING on org.eclipse.jdt.internal.core.search.indexing.IndexManager@4a727a97
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.eclipse.jdt.internal.core.search.indexing.IndexManager@4a727a97
+	at java.base@17.0.8.1/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:488)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager$$Lambda$588/0x0000000100719238.run(Unknown Source)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+
+"JNA Cleaner" daemon prio=6 Id=37 WAITING on java.lang.ref.ReferenceQueue$Lock@6cd351d1
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@6cd351d1
+	at java.base@17.0.8.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.8.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at com.sun.jna.internal.Cleaner$1.run(Cleaner.java:58)
+
+"CompletableFutureDelayScheduler" daemon prio=6 Id=39 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@62ed5828
+	at java.base@17.0.8.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@62ed5828
+	at java.base@17.0.8.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.8.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+	at java.base@17.0.8.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+	at java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.8.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+	at java.base@17.0.8.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	...
+
+"Stop Language Server Task Processor" prio=6 Id=44 TIMED_WAITING on java.util.TaskQueue@623476e1
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@623476e1
+	at java.base@17.0.8.1/java.util.TimerThread.mainLoop(Timer.java:563)
+	at java.base@17.0.8.1/java.util.TimerThread.run(Timer.java:516)
+
+"Stop Language Server Task Processor" prio=6 Id=45 WAITING on java.util.TaskQueue@3b4b1ef2
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@3b4b1ef2
+	at java.base@17.0.8.1/java.lang.Object.wait(Object.java:338)
+	at java.base@17.0.8.1/java.util.TimerThread.mainLoop(Timer.java:537)
+	at java.base@17.0.8.1/java.util.TimerThread.run(Timer.java:516)
+
+"Consume LS error stream" daemon prio=6 Id=51 RUNNABLE (in native)
+	at java.base@17.0.8.1/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.8.1/java.io.FileInputStream.read(FileInputStream.java:254)
+	at org.springsource.ide.eclipse.commons.core.util.IOUtil.consume(IOUtil.java:26)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageServerProcessStreamConnector$1.run(STS4LanguageServerProcessStreamConnector.java:69)
+
+"LS-org.eclipse.languageserver.languages.springboot#listener-0" prio=5 Id=52 RUNNABLE (in native)
+	at java.base@17.0.8.1/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.8.1/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	-  locked java.io.BufferedInputStream@4de08d93
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:79)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base@17.0.8.1/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base@17.0.8.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@79bed19c
+
+"LS-org.eclipse.wildwebdeveloper.yaml#dispatcher" prio=5 Id=57 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4065528
+	at java.base@17.0.8.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4065528
+	at java.base@17.0.8.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.8.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+	at java.base@17.0.8.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+	at java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.8.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	...
+
+"EventAdmin Async Event Dispatcher Thread" daemon prio=6 Id=58 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@675967d4
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@675967d4
+	at java.base@17.0.8.1/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:400)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+"pool-5-thread-1" prio=5 Id=75 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2e9ce2b9
+	at java.base@17.0.8.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2e9ce2b9
+	at java.base@17.0.8.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.8.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+	at java.base@17.0.8.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+	at java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.8.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	...
+
+"pool-6-thread-1" prio=5 Id=76 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4eb87b3d
+	at java.base@17.0.8.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4eb87b3d
+	at java.base@17.0.8.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.8.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+	at java.base@17.0.8.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+	at java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.8.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	...
+
+"LS-org.eclipse.languageserver.languages.springboot#dispatcher" prio=5 Id=80 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7821c8d7
+	at java.base@17.0.8.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7821c8d7
+	at java.base@17.0.8.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.8.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+	at java.base@17.0.8.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+	at java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.8.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	...
+
+"pool-7-thread-1" prio=5 Id=82 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@546a67c0
+	at java.base@17.0.8.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@546a67c0
+	at java.base@17.0.8.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.8.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+	at java.base@17.0.8.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+	at java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.8.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	...
+
+"Thread-15" prio=6 Id=83 TIMED_WAITING
+	at java.base@17.0.8.1/java.lang.Thread.sleep(Native Method)
+	at org.eclipse.linuxtools.internal.docker.core.DockerContainerRefreshManager$ContainerRefreshThread.run(DockerContainerRefreshManager.java:152)
+
+"Thread-17" prio=5 Id=86 TIMED_WAITING
+	at java.base@17.0.8.1/java.lang.Thread.sleep(Native Method)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:73)
+
+"RMI Scheduler(0)" daemon prio=5 Id=91 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@1daacede
+	at java.base@17.0.8.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@1daacede
+	at java.base@17.0.8.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+	at java.base@17.0.8.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@17.0.8.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	...
+
+"RMI GC Daemon" daemon prio=2 Id=93 TIMED_WAITING on sun.rmi.transport.GC$LatencyLock@10463fc5
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on sun.rmi.transport.GC$LatencyLock@10463fc5
+	at java.rmi@17.0.8.1/sun.rmi.transport.GC$Daemon.run(GC.java:127)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+	at java.base@17.0.8.1/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+
+"Stop Language Server Task Processor" prio=6 Id=305 WAITING on java.util.TaskQueue@66573a6a
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@66573a6a
+	at java.base@17.0.8.1/java.lang.Object.wait(Object.java:338)
+	at java.base@17.0.8.1/java.util.TimerThread.mainLoop(Timer.java:537)
+	at java.base@17.0.8.1/java.util.TimerThread.run(Timer.java:516)
+
+"LS-org.eclipse.wildwebdeveloper.xml#dispatcher" prio=5 Id=307 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@61041507
+	at java.base@17.0.8.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@61041507
+	at java.base@17.0.8.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.8.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+	at java.base@17.0.8.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+	at java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.8.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	...
+
+"org.eclipse.lsp4e.outline.LSSymbolsContentProvider$ReconcilerOutlineUpdater" daemon prio=1 Id=308 TIMED_WAITING on org.eclipse.jface.text.reconciler.DirtyRegionQueue@2a93ebc7
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.eclipse.jface.text.reconciler.DirtyRegionQueue@2a93ebc7
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:572)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:181)
+
+"Worker-131: Process Console Input Job" prio=5 Id=946 WAITING on org.eclipse.ui.console.IOConsoleInputStream@b8a5147
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.eclipse.ui.console.IOConsoleInputStream@b8a5147
+	at java.base@17.0.8.1/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.ui.console.IOConsoleInputStream.waitForData(IOConsoleInputStream.java:141)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:92)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:114)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:908)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+"Worker-191: Process Console Input Job" prio=5 Id=2036 WAITING on org.eclipse.ui.console.IOConsoleInputStream@5451be36
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.eclipse.ui.console.IOConsoleInputStream@5451be36
+	at java.base@17.0.8.1/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.ui.console.IOConsoleInputStream.waitForData(IOConsoleInputStream.java:141)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:92)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:114)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:908)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+"Worker-195: Process Console Input Job" prio=5 Id=2102 WAITING on org.eclipse.ui.console.IOConsoleInputStream@153c3596
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.eclipse.ui.console.IOConsoleInputStream@153c3596
+	at java.base@17.0.8.1/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.ui.console.IOConsoleInputStream.waitForData(IOConsoleInputStream.java:141)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:92)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:114)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:908)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+"Output Stream Monitor for PID 3676 ServiceRegistry - ServiceRegistryApplication" daemon prio=1 Id=2147 RUNNABLE (in native)
+	at java.base@17.0.8.1/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.8.1/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	-  locked java.io.BufferedInputStream@20c43925
+	at java.base@17.0.8.1/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$$Lambda$1779/0x0000000100ee6a48.run(Unknown Source)
+	...
+
+"Error Stream Monitor for PID 3676 ServiceRegistry - ServiceRegistryApplication" daemon prio=1 Id=2148 RUNNABLE (in native)
+	at java.base@17.0.8.1/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.8.1/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	-  locked java.io.BufferedInputStream@799d4413
+	at java.base@17.0.8.1/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$$Lambda$1779/0x0000000100ee6a48.run(Unknown Source)
+	...
+
+"Input Stream Monitor for PID 3676 ServiceRegistry - ServiceRegistryApplication" daemon prio=5 Id=2149 WAITING on java.lang.Object@20e4f518
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.Object@20e4f518
+	at java.base@17.0.8.1/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:199)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:169)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$$Lambda$1780/0x0000000100ee6c68.run(Unknown Source)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+
+"Process monitor for PID 3676 ServiceRegistry - ServiceRegistryApplication" daemon prio=5 Id=2150 RUNNABLE (in native)
+	at java.base@17.0.8.1/java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+	at java.base@17.0.8.1/java.lang.ProcessImpl.waitFor(ProcessImpl.java:566)
+	at org.eclipse.debug.core.model.RuntimeProcess$ProcessMonitorThread.run(RuntimeProcess.java:501)
+
+"RMI RenewClean-[localhost:58159]" daemon prio=5 Id=2151 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@5400e417
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@5400e417
+	at java.base@17.0.8.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.rmi@17.0.8.1/sun.rmi.transport.DGCClient$EndpointEntry$RenewCleanThread.run(DGCClient.java:559)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+
+"JMX client heartbeat 193" daemon prio=5 Id=2152 TIMED_WAITING
+	at java.base@17.0.8.1/java.lang.Thread.sleep(Native Method)
+	at java.management@17.0.8.1/com.sun.jmx.remote.internal.ClientCommunicatorAdmin$Checker.run(ClientCommunicatorAdmin.java:180)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+
+"Output Stream Monitor for PID 15304 CongifServer - CongifServerApplication" daemon prio=1 Id=2161 RUNNABLE (in native)
+	at java.base@17.0.8.1/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.8.1/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	-  locked java.io.BufferedInputStream@558cf2a3
+	at java.base@17.0.8.1/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$$Lambda$1779/0x0000000100ee6a48.run(Unknown Source)
+	...
+
+"Error Stream Monitor for PID 15304 CongifServer - CongifServerApplication" daemon prio=1 Id=2162 RUNNABLE (in native)
+	at java.base@17.0.8.1/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.8.1/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	-  locked java.io.BufferedInputStream@462289dd
+	at java.base@17.0.8.1/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$$Lambda$1779/0x0000000100ee6a48.run(Unknown Source)
+	...
+
+"Input Stream Monitor for PID 15304 CongifServer - CongifServerApplication" daemon prio=5 Id=2163 WAITING on java.lang.Object@4169e834
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.Object@4169e834
+	at java.base@17.0.8.1/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:199)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:169)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$$Lambda$1780/0x0000000100ee6c68.run(Unknown Source)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+
+"Process monitor for PID 15304 CongifServer - CongifServerApplication" daemon prio=5 Id=2164 RUNNABLE (in native)
+	at java.base@17.0.8.1/java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+	at java.base@17.0.8.1/java.lang.ProcessImpl.waitFor(ProcessImpl.java:566)
+	at org.eclipse.debug.core.model.RuntimeProcess$ProcessMonitorThread.run(RuntimeProcess.java:501)
+
+"RMI RenewClean-[localhost:58177]" daemon prio=5 Id=2165 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@121a8c52
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@121a8c52
+	at java.base@17.0.8.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.rmi@17.0.8.1/sun.rmi.transport.DGCClient$EndpointEntry$RenewCleanThread.run(DGCClient.java:559)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+
+"JMX client heartbeat 198" daemon prio=5 Id=2166 TIMED_WAITING
+	at java.base@17.0.8.1/java.lang.Thread.sleep(Native Method)
+	at java.management@17.0.8.1/com.sun.jmx.remote.internal.ClientCommunicatorAdmin$Checker.run(ClientCommunicatorAdmin.java:180)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+
+"Worker-208: Process Console Input Job" prio=5 Id=2371 WAITING on org.eclipse.ui.console.IOConsoleInputStream@20b16d58
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.eclipse.ui.console.IOConsoleInputStream@20b16d58
+	at java.base@17.0.8.1/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.ui.console.IOConsoleInputStream.waitForData(IOConsoleInputStream.java:141)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:92)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:114)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:908)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+"Worker-211: Process Console Input Job" prio=5 Id=2397 WAITING on org.eclipse.ui.console.IOConsoleInputStream@720f64f2
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.eclipse.ui.console.IOConsoleInputStream@720f64f2
+	at java.base@17.0.8.1/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.ui.console.IOConsoleInputStream.waitForData(IOConsoleInputStream.java:141)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:92)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:114)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:908)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+"Output Stream Monitor for PID 26184 HotelService - HotelServiceApplication" daemon prio=1 Id=2507 RUNNABLE (in native)
+	at java.base@17.0.8.1/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.8.1/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	-  locked java.io.BufferedInputStream@7ca91acf
+	at java.base@17.0.8.1/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$$Lambda$1779/0x0000000100ee6a48.run(Unknown Source)
+	...
+
+"Error Stream Monitor for PID 26184 HotelService - HotelServiceApplication" daemon prio=1 Id=2508 RUNNABLE (in native)
+	at java.base@17.0.8.1/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.8.1/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	-  locked java.io.BufferedInputStream@3a977114
+	at java.base@17.0.8.1/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$$Lambda$1779/0x0000000100ee6a48.run(Unknown Source)
+	...
+
+"Input Stream Monitor for PID 26184 HotelService - HotelServiceApplication" daemon prio=5 Id=2509 WAITING on java.lang.Object@11e700b3
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.Object@11e700b3
+	at java.base@17.0.8.1/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:199)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:169)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$$Lambda$1780/0x0000000100ee6c68.run(Unknown Source)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+
+"Process monitor for PID 26184 HotelService - HotelServiceApplication" daemon prio=5 Id=2510 RUNNABLE (in native)
+	at java.base@17.0.8.1/java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+	at java.base@17.0.8.1/java.lang.ProcessImpl.waitFor(ProcessImpl.java:566)
+	at org.eclipse.debug.core.model.RuntimeProcess$ProcessMonitorThread.run(RuntimeProcess.java:501)
+
+"RMI RenewClean-[localhost:49757]" daemon prio=5 Id=2512 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@1846ce89
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@1846ce89
+	at java.base@17.0.8.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.rmi@17.0.8.1/sun.rmi.transport.DGCClient$EndpointEntry$RenewCleanThread.run(DGCClient.java:559)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+
+"JMX client heartbeat 259" daemon prio=5 Id=2513 TIMED_WAITING
+	at java.base@17.0.8.1/java.lang.Thread.sleep(Native Method)
+	at java.management@17.0.8.1/com.sun.jmx.remote.internal.ClientCommunicatorAdmin$Checker.run(ClientCommunicatorAdmin.java:180)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+
+"Output Stream Monitor for PID 9532 RatingService - RatingServiceApplication" daemon prio=1 Id=2838 RUNNABLE (in native)
+	at java.base@17.0.8.1/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.8.1/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	-  locked java.io.BufferedInputStream@2c0dd02c
+	at java.base@17.0.8.1/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$$Lambda$1779/0x0000000100ee6a48.run(Unknown Source)
+	...
+
+"Error Stream Monitor for PID 9532 RatingService - RatingServiceApplication" daemon prio=1 Id=2839 RUNNABLE (in native)
+	at java.base@17.0.8.1/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.8.1/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	-  locked java.io.BufferedInputStream@2d931b68
+	at java.base@17.0.8.1/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$$Lambda$1779/0x0000000100ee6a48.run(Unknown Source)
+	...
+
+"Input Stream Monitor for PID 9532 RatingService - RatingServiceApplication" daemon prio=5 Id=2840 WAITING on java.lang.Object@4d874f1
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.Object@4d874f1
+	at java.base@17.0.8.1/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:199)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:169)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$$Lambda$1780/0x0000000100ee6c68.run(Unknown Source)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+
+"Process monitor for PID 9532 RatingService - RatingServiceApplication" daemon prio=5 Id=2841 RUNNABLE (in native)
+	at java.base@17.0.8.1/java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+	at java.base@17.0.8.1/java.lang.ProcessImpl.waitFor(ProcessImpl.java:566)
+	at org.eclipse.debug.core.model.RuntimeProcess$ProcessMonitorThread.run(RuntimeProcess.java:501)
+
+"RMI RenewClean-[localhost:63055]" daemon prio=5 Id=2842 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@2ac4c065
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@2ac4c065
+	at java.base@17.0.8.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.rmi@17.0.8.1/sun.rmi.transport.DGCClient$EndpointEntry$RenewCleanThread.run(DGCClient.java:559)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+
+"JMX client heartbeat 284" daemon prio=5 Id=2843 TIMED_WAITING
+	at java.base@17.0.8.1/java.lang.Thread.sleep(Native Method)
+	at java.management@17.0.8.1/com.sun.jmx.remote.internal.ClientCommunicatorAdmin$Checker.run(ClientCommunicatorAdmin.java:180)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+
+"Output Stream Monitor for PID 22336 UserServices - UserServicesApplication" daemon prio=1 Id=2871 RUNNABLE (in native)
+	at java.base@17.0.8.1/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.8.1/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	-  locked java.io.BufferedInputStream@680af9a1
+	at java.base@17.0.8.1/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$$Lambda$1779/0x0000000100ee6a48.run(Unknown Source)
+	...
+
+"Error Stream Monitor for PID 22336 UserServices - UserServicesApplication" daemon prio=1 Id=2872 RUNNABLE (in native)
+	at java.base@17.0.8.1/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.8.1/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	-  locked java.io.BufferedInputStream@5d77e793
+	at java.base@17.0.8.1/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$$Lambda$1779/0x0000000100ee6a48.run(Unknown Source)
+	...
+
+"Input Stream Monitor for PID 22336 UserServices - UserServicesApplication" daemon prio=5 Id=2873 WAITING on java.lang.Object@1acf6f30
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.Object@1acf6f30
+	at java.base@17.0.8.1/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:199)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:169)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$$Lambda$1780/0x0000000100ee6c68.run(Unknown Source)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+
+"Process monitor for PID 22336 UserServices - UserServicesApplication" daemon prio=5 Id=2874 RUNNABLE (in native)
+	at java.base@17.0.8.1/java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+	at java.base@17.0.8.1/java.lang.ProcessImpl.waitFor(ProcessImpl.java:566)
+	at org.eclipse.debug.core.model.RuntimeProcess$ProcessMonitorThread.run(RuntimeProcess.java:501)
+
+"RMI RenewClean-[localhost:57308]" daemon prio=5 Id=2876 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@160453e4
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@160453e4
+	at java.base@17.0.8.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.rmi@17.0.8.1/sun.rmi.transport.DGCClient$EndpointEntry$RenewCleanThread.run(DGCClient.java:559)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+
+"JMX client heartbeat 289" daemon prio=5 Id=2877 TIMED_WAITING
+	at java.base@17.0.8.1/java.lang.Thread.sleep(Native Method)
+	at java.management@17.0.8.1/com.sun.jmx.remote.internal.ClientCommunicatorAdmin$Checker.run(ClientCommunicatorAdmin.java:180)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+
+"org.eclipse.jdt.internal.ui.text.JavaReconciler" daemon prio=1 Id=3028 TIMED_WAITING on org.eclipse.jface.text.reconciler.DirtyRegionQueue@29fc7774
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.eclipse.jface.text.reconciler.DirtyRegionQueue@29fc7774
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:572)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:181)
+
+"tm4e.TokenizerThread" daemon prio=1 Id=3038 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4b5556a7
+	at java.base@17.0.8.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4b5556a7
+	at java.base@17.0.8.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.8.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+	at java.base@17.0.8.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+	at java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.8.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at org.eclipse.tm4e.core.model.TMModel$TokenizerThread.run(TMModel.java:157)
+
+"org.eclipse.jface.text.reconciler.Reconciler" daemon prio=1 Id=3035 TIMED_WAITING on org.eclipse.jface.text.reconciler.DirtyRegionQueue@2a020612
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.eclipse.jface.text.reconciler.DirtyRegionQueue@2a020612
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:572)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:181)
+
+"org.eclipse.jface.text.codemining.CodeMiningReconciler" daemon prio=1 Id=3036 TIMED_WAITING on org.eclipse.jface.text.reconciler.DirtyRegionQueue@1e2dfbc5
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.eclipse.jface.text.reconciler.DirtyRegionQueue@1e2dfbc5
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:572)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:181)
+
+"org.eclipse.ui.internal.genericeditor.folding.DefaultFoldingReconciler" daemon prio=1 Id=3037 TIMED_WAITING on org.eclipse.jface.text.reconciler.DirtyRegionQueue@542068a3
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.eclipse.jface.text.reconciler.DirtyRegionQueue@542068a3
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:572)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:181)
+
+"tm4e.TokenizerThread" daemon prio=1 Id=3042 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3521ecee
+	at java.base@17.0.8.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3521ecee
+	at java.base@17.0.8.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.8.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+	at java.base@17.0.8.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+	at java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.8.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at org.eclipse.tm4e.core.model.TMModel$TokenizerThread.run(TMModel.java:157)
+
+"org.eclipse.jface.text.reconciler.Reconciler" daemon prio=1 Id=3039 TIMED_WAITING on org.eclipse.jface.text.reconciler.DirtyRegionQueue@fa95ece
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.eclipse.jface.text.reconciler.DirtyRegionQueue@fa95ece
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:572)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:181)
+
+"org.eclipse.jface.text.codemining.CodeMiningReconciler" daemon prio=1 Id=3040 TIMED_WAITING on org.eclipse.jface.text.reconciler.DirtyRegionQueue@7e2b7f2d
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.eclipse.jface.text.reconciler.DirtyRegionQueue@7e2b7f2d
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:572)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:181)
+
+"org.eclipse.ui.internal.genericeditor.folding.DefaultFoldingReconciler" daemon prio=1 Id=3041 TIMED_WAITING on org.eclipse.jface.text.reconciler.DirtyRegionQueue@2919653b
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.eclipse.jface.text.reconciler.DirtyRegionQueue@2919653b
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:572)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:181)
+
+"LS-org.eclipse.wildwebdeveloper.xml#listener-4" prio=5 Id=3043 RUNNABLE (in native)
+	at java.base@17.0.8.1/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.8.1/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	-  locked java.io.BufferedInputStream@13e5ba6a
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:79)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base@17.0.8.1/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base@17.0.8.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@18ed0db6
+
+"org.eclipse.lsp4e.outline.LSSymbolsContentProvider$ReconcilerOutlineUpdater" daemon prio=1 Id=3047 TIMED_WAITING on org.eclipse.jface.text.reconciler.DirtyRegionQueue@56ffd9f6
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.eclipse.jface.text.reconciler.DirtyRegionQueue@56ffd9f6
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:572)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:181)
+
+"org.eclipse.lsp4e.outline.LSSymbolsContentProvider$ReconcilerOutlineUpdater" daemon prio=1 Id=3049 TIMED_WAITING on org.eclipse.jface.text.reconciler.DirtyRegionQueue@73080613
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.eclipse.jface.text.reconciler.DirtyRegionQueue@73080613
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:572)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:181)
+
+"LS-org.eclipse.wildwebdeveloper.yaml#listener-3" prio=5 Id=3064 RUNNABLE (in native)
+	at java.base@17.0.8.1/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.8.1/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	-  locked java.io.BufferedInputStream@11da95f4
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:79)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base@17.0.8.1/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base@17.0.8.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@720aa047
+
+"tm4e.TokenizerThread" daemon prio=1 Id=3108 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2f524b4f
+	at java.base@17.0.8.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2f524b4f
+	at java.base@17.0.8.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.8.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+	at java.base@17.0.8.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+	at java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.8.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at org.eclipse.tm4e.core.model.TMModel$TokenizerThread.run(TMModel.java:157)
+
+"org.eclipse.jface.text.reconciler.Reconciler" daemon prio=1 Id=3105 TIMED_WAITING on org.eclipse.jface.text.reconciler.DirtyRegionQueue@74a073a
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.eclipse.jface.text.reconciler.DirtyRegionQueue@74a073a
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:572)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:181)
+
+"org.eclipse.jface.text.codemining.CodeMiningReconciler" daemon prio=1 Id=3106 TIMED_WAITING on org.eclipse.jface.text.reconciler.DirtyRegionQueue@34c1b15e
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.eclipse.jface.text.reconciler.DirtyRegionQueue@34c1b15e
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:572)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:181)
+
+"org.eclipse.ui.internal.genericeditor.folding.DefaultFoldingReconciler" daemon prio=1 Id=3107 TIMED_WAITING on org.eclipse.jface.text.reconciler.DirtyRegionQueue@7171f707
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.eclipse.jface.text.reconciler.DirtyRegionQueue@7171f707
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:572)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:181)
+
+"org.eclipse.lsp4e.outline.LSSymbolsContentProvider$ReconcilerOutlineUpdater" daemon prio=1 Id=3109 TIMED_WAITING on org.eclipse.jface.text.reconciler.DirtyRegionQueue@4c44d255
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.eclipse.jface.text.reconciler.DirtyRegionQueue@4c44d255
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:572)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:181)
+
+"org.eclipse.jdt.internal.ui.text.JavaReconciler" daemon prio=1 Id=3130 TIMED_WAITING on org.eclipse.jface.text.reconciler.DirtyRegionQueue@1be06f30
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.eclipse.jface.text.reconciler.DirtyRegionQueue@1be06f30
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:572)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:181)
+
+"Worker-293: Process Console Input Job" prio=5 Id=3244 WAITING on org.eclipse.ui.console.IOConsoleInputStream@22926653
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.eclipse.ui.console.IOConsoleInputStream@22926653
+	at java.base@17.0.8.1/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.ui.console.IOConsoleInputStream.waitForData(IOConsoleInputStream.java:141)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:92)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:114)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:908)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+"Output Stream Monitor for PID 25592 ApiGateway - ApiGatewayApplication" daemon prio=1 Id=3280 RUNNABLE (in native)
+	at java.base@17.0.8.1/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.8.1/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	-  locked java.io.BufferedInputStream@5c2564c9
+	at java.base@17.0.8.1/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$$Lambda$1779/0x0000000100ee6a48.run(Unknown Source)
+	...
+
+"Error Stream Monitor for PID 25592 ApiGateway - ApiGatewayApplication" daemon prio=1 Id=3281 RUNNABLE (in native)
+	at java.base@17.0.8.1/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.8.1/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.8.1/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	-  locked java.io.BufferedInputStream@3619c362
+	at java.base@17.0.8.1/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$$Lambda$1779/0x0000000100ee6a48.run(Unknown Source)
+	...
+
+"Input Stream Monitor for PID 25592 ApiGateway - ApiGatewayApplication" daemon prio=5 Id=3282 WAITING on java.lang.Object@2e98a37e
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.Object@2e98a37e
+	at java.base@17.0.8.1/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:199)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:169)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$$Lambda$1780/0x0000000100ee6c68.run(Unknown Source)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+
+"Process monitor for PID 25592 ApiGateway - ApiGatewayApplication" daemon prio=5 Id=3283 RUNNABLE (in native)
+	at java.base@17.0.8.1/java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+	at java.base@17.0.8.1/java.lang.ProcessImpl.waitFor(ProcessImpl.java:566)
+	at org.eclipse.debug.core.model.RuntimeProcess$ProcessMonitorThread.run(RuntimeProcess.java:501)
+
+"RMI RenewClean-[localhost:61841]" daemon prio=5 Id=3286 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@1f89e800
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@1f89e800
+	at java.base@17.0.8.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.rmi@17.0.8.1/sun.rmi.transport.DGCClient$EndpointEntry$RenewCleanThread.run(DGCClient.java:559)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+
+"JMX client heartbeat 297" daemon prio=5 Id=3287 TIMED_WAITING
+	at java.base@17.0.8.1/java.lang.Thread.sleep(Native Method)
+	at java.management@17.0.8.1/com.sun.jmx.remote.internal.ClientCommunicatorAdmin$Checker.run(ClientCommunicatorAdmin.java:180)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+
+"Worker-301" prio=5 Id=3315 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@68fdc414
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@68fdc414
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-307" prio=5 Id=3446 RUNNABLE
+	at java.management@17.0.8.1/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@17.0.8.1/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:521)
+	at java.management@17.0.8.1/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:509)
+	at org.eclipse.core.internal.jobs.JobListeners.waitAndSendEvents(JobListeners.java:120)
+	at org.eclipse.core.internal.jobs.JobManager.startJob(JobManager.java:1778)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-310" prio=5 Id=3449 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@68fdc414
+	at java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@68fdc414
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-11 18:22:32.204
+!MESSAGE org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$10(LanguageServerWrapper.java:465)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:285)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at jdk.proxy13/jdk.proxy13.$Proxy36.shutdown(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$10(LanguageServerWrapper.java:463)
+	... 7 more
+Caused by: java.io.IOException: The pipe is being closed
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:349)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 12 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-12-11 18:22:32.256
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Program Files\Java\sts-4.20.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\bin\javaw.exe
+-cp
+C:\Program Files\Java\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes;C:\Program Files\Java\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Program Files\Java\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=D:/MicroServicesProject/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1765457552179
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-11 18:22:32.261
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-12-11 18:22:32.306
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 9948
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-11 18:22:32.399
+!MESSAGE DelegatingStreamConnectionProvider - Stopping Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-12-11 18:22:32.401
+!MESSAGE Stopped org.springframework.tooling.boot.ls LS process 22436
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-12-11 18:22:36.137
+!MESSAGE Could not get hover region due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:155)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:212)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-11 18:22:37.291
+!MESSAGE org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$10(LanguageServerWrapper.java:465)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:285)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at jdk.proxy20/jdk.proxy20.$Proxy72.shutdown(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$10(LanguageServerWrapper.java:463)
+	... 7 more
+Caused by: java.io.IOException: The pipe is being closed
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:349)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 12 more

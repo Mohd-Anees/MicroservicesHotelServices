@@ -1,0 +1,71 @@
+# Application Name
+spring.application.name=USER-SERVICE
+
+# Server Port
+server.port=8081
+
+# MySQL Configuration
+spring.datasource.url=jdbc:mysql://localhost:3306/microservices
+spring.datasource.username=root
+spring.datasource.password=root
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+# JPA Configuration
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+
+# Eureka Client Configuration
+eureka.client.register-with-eureka=true
+eureka.client.fetch-registry=true
+eureka.client.service-url.defaultZone=http://localhost:8084/eureka/
+
+# Eureka Instance Configuration
+eureka.instance.prefer-ip-address=true
+eureka.instance.instance-id=${spring.application.name}:${server.port}
+
+## Disable Config Server (since you removed the dependency)
+#spring.cloud.config.enabled=false
+
+# Enable circuit breaker details in actuator health
+management.health.circuitbreakers.enabled=true
+
+# Expose ALL actuator endpoints for debugging (change to specific endpoints in production)
+management.endpoints.web.exposure.include=health,circuitbreakers,circuitbreakerevents
+
+# Show details for health endpoint
+management.endpoint.health.show-details=always
+
+# Add this line - CRITICAL FIX
+resilience4j.timelimiter.instances.ratingHotelBreaker.timeout-duration=10s
+
+
+## REQUIRED: Application name must be set locally (needed before contacting Config Server)
+#spring.application.name=USER-SERVICE
+#server.port=8081
+#
+## MySQL Configuration (stays local - database connection is environment-specific)
+#spring.datasource.url=jdbc:mysql://localhost:3306/microservices
+#spring.datasource.username=root
+#spring.datasource.password=root
+#spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+#
+## JPA Configuration (stays local - can be overridden by Config Server if needed)
+#spring.jpa.hibernate.ddl-auto=update
+#spring.jpa.show-sql=true
+#spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+#
+## Config Server: Fetch configuration from GitHub via Config Server
+##spring.config.import=optional:configserver:http://localhost:8086
+##
+##
+##spring.profiles.active=prod
+#
+##Eureka Configuration (now managed by Config Server from GitHub)
+## These are commented out because they're fetched from GitHub application.yml
+## Keeping them here as backup/fallback in case Config Server is unavailable
+#eureka.instance.prefer-ip-address=true
+#eureka.instance.instance-id=${spring.application.name}:${server.port}
+#eureka.client.register-with-eureka=true
+#eureka.client.fetch-registry=true
+#eureka.client.service-url.defaultZone=http://localhost:8084/eureka/
